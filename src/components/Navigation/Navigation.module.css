@@ -44,3 +44,22 @@
 .active {
   border-bottom: 4px solid var(--color-primary);
 }
+
+.languageSwitcher {
+  display: flex;
+  gap: 4px;
+}
+
+.languageButton {
+  padding: 6px 8px;
+  border: 1px solid var(--color-outline);
+  background: transparent;
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+.languageButtonActive {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}

@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "ariaLabel": "Главная навигация",
+    "home": "Главная",
+    "about": "О проекте",
+    "languageSwitcher": "Выбрать язык",
+    "english": "Переключить на английский",
+    "russian": "Переключить на русский"
+  },
+  "about": {
+    "title": "О проекте",
+    "description": "Это страница с информацией о приложении."
+  },
+  "footer": {
+    "description": "PetProject",
+    "navigationAriaLabel": "Навигация в подвале",
+    "navigationTitle": "Навигация",
+    "about": "О проекте",
+    "compass": "Компас"
+  },
+  "notFound": "404 Страница не найдена"
+}
