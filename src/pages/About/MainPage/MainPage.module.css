@@ -18,8 +18,8 @@
 .title {
   font-family: var(--font-heading);
   font-size: 56px;
-  color: var(--color-primary);
-  font-weight: 300;
+  color: var(--color-foreground);
+  font-weight: 400;
   letter-spacing: 6.72px;
   width: 768px;
   height: 84px;
@@ -28,7 +28,7 @@
 
 .subtitle {
   font-family: var(--font-body);
-  color: var(--color-primary);
+  color: var(--color-foreground);
   font-size: 20px;
   margin: 24px 0;
   width: 332px;
@@ -39,7 +39,7 @@
 
 .tagline {
   font-family: var(--font-body);
-  color: rgba(var(--color-primary-rgb), 0.5);
+  color: var(--color-muted-foreground);
   font-size: 16px;
   font-style: italic;
   margin-bottom: 96px;
@@ -69,7 +69,7 @@
 .schoolsDisclaimer {
   max-width: 768px;
   font-family: var(--font-body);
-  color: rgba(var(--color-primary-rgb), 0.7);
+  color: var(--color-muted-foreground);
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -84,16 +84,16 @@
 }
 
 .smellCardsTitle {
-  color: var(--color-primary);
+  color: var(--color-foreground);
   font-family: var(--font-heading);
   font-size: 36px;
   margin-bottom: 16px;
   letter-spacing: 1.8px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .smellCardsSubtitle {
-  color: rgba(var(--color-primary-rgb), 0.7);
+  color: var(--color-muted-foreground);
   font-family: var(--font-body);
   font-size: 16px;
   margin-bottom: 64px;
@@ -114,16 +114,16 @@
 }
 
 .perfumeExampleCardsTitle {
-  color: var(--color-primary);
+  color: var(--color-foreground);
   font-family: var(--font-heading);
   font-size: 36px;
   margin-bottom: 16px;
   letter-spacing: 1.8px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .perfumeExampleCardsSubtitle {
-  color: rgba(var(--color-primary-rgb), 0.7);
+  color: var(--color-muted-foreground);
   font-family: var(--font-body);
   font-size: 16px;
   margin-bottom: 64px;
@@ -149,12 +149,12 @@
 }
 
 .explainTitle {
-  color: var(--color-primary);
+  color: var(--color-foreground);
   font-family: var(--font-heading);
   font-size: 36px;
   margin-bottom: 32px;
   letter-spacing: 1.8px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -165,7 +165,7 @@
   max-width: 768px;
   width: 100%;
   font-family: var(--font-body);
-  color: rgba(var(--color-primary-rgb), 0.7);
+  color: var(--color-muted-foreground);
   font-size: 16px;
   line-height: 24px;
   gap: 16px;

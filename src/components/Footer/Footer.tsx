@@ -1,7 +1,11 @@
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
+  const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className={styles.container}>
       <div className={styles.content}>
@@ -9,33 +13,34 @@ export default function Footer() {
           <Link to="/" className={styles.brand}>
             PETPROJECT
           </Link>
-          <p className={styles.text}>
-            PetProject
-          </p>
+          <p className={styles.text}>{t("footer.description")}</p>
         </div>
-        <nav className={styles.columnLinks} aria-label="Footer navigation">
-          <p className={styles.navigationTitle}>NAVIGATE</p>
+        <nav
+          className={styles.columnLinks}
+          aria-label={t("footer.navigationAriaLabel")}
+        >
+          <p className={styles.navigationTitle}>
+            {t("footer.navigationTitle")}
+          </p>
 
           <ul className={styles.links}>
             <li>
               <Link to="/about" className={styles.link}>
-                About
+                {t("footer.about")}
               </Link>
             </li>
             <li>
               <Link to="/about" className={styles.link}>
-                Compass
+                {t("footer.compass")}
               </Link>
             </li>
           </ul>
         </nav>
-
-    
       </div>
 
       <div className={styles.copyright}>
         <p className={styles.copyrightText}>
-          © 2026
+          © {currentYear}
         </p>
       </div>
     </footer>

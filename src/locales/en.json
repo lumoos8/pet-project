@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "ariaLabel": "Main navigation",
+    "home": "Home",
+    "about": "About",
+    "languageSwitcher": "Choose language",
+    "english": "Switch to English",
+    "russian": "Switch to Russian"
+  },
+  "about": {
+    "title": "About Page",
+    "description": "This is the about page of the application."
+  },
+  "footer": {
+    "description": "PetProject",
+    "navigationAriaLabel": "Footer navigation",
+    "navigationTitle": "Navigate",
+    "about": "About",
+    "compass": "Compass"
+  },
+  "notFound": "404 Not Found"
+}
