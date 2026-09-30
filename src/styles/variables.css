@@ -1,53 +1,32 @@
-/* @import "@fontsource/space-grotesk";
-@import "@fontsource/inter";
-@import "@fontsource/tinos";
-@import "@fontsource/space-grotesk/300.css"; */
-
 :root {
-  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, -apple-system,
-    "Segoe UI", Roboto, Arial, sans-serif;
-  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+  --font-heading: "Caveat", "Segoe Print", "Bradley Hand", "Comic Sans MS",
+    cursive;
+  --font-body: "Nunito", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
     Roboto, Arial, sans-serif;
-  --font-accent: "Tinos", ui-serif, Georgia, "Times New Roman", Times, serif;
+  --font-accent: "Caveat", "Segoe Print", "Bradley Hand", "Comic Sans MS",
+    cursive;
 }
 
 :root[data-theme="default-theme"] {
-  --color-primary: #262626;
-  --color-secondary: #c9d1d3;
-  --color-tertiary: #e5d5c8;
-
-  --color-background: #fafafa;
+  --color-background: #f5f3ed;
+  --color-foreground: #2c5f7d;
   --color-surface: #ffffff;
+  --color-surface-foreground: #2c5f7d;
+  --color-muted: #e8e5dc;
+  --color-muted-foreground: #7b8a93;
+  --color-accent: #ffa566;
+  --color-accent-hover: #ff9552;
+  --color-accent-foreground: #ffffff;
+  --color-destructive: #ff5847;
+  --color-destructive-foreground: #ffffff;
+  --color-border: rgba(44, 95, 125, 0.1);
+  --color-input-background: #f9f7f2;
+  --color-switch-background: #d4cfc4;
+  --color-ring: rgba(44, 95, 125, 0.3);
 
-  --color-outline: #e5e5e5;
-  --color-error: #e7665d;
-
-  --color-on-primary: #ffffff;
-  --color-on-secondary: #262626;
-  --color-on-tertiary: #262626;
-
-  --color-on-background: #262626;
-  --color-on-surface: #262626;
-
-  --color-on-error: #ffffff;
-
-  --color-surface-glass: rgba(255, 255, 255, 0.7);
-
-  --color-world-french: #e5d5c8;
-  --color-world-japanese: #c9d1d3;
-  --color-world-dutch: #c7a782;
-  --color-world-italian: #e8e4b8;
-
-  /* Interaction tones */
-  --color-primary-tone-1: #1a1a1a; /* Darker shade for active state */
-  --color-primary-tone-2: #333333; /* Lighter shade for hover state */
-
-  --color-secondary-tone-1: #a6b0b2; /* Darker shade for active state */
-  --color-secondary-tone-2: #d4dbdd; /* Lighter shade for hover state */
-
-  --color-tertiary-tone-1: #d6b8a8; /* Darker shade for active state */
-  --color-tertiary-tone-2: #f0e2d8; /* Lighter shade for hover state */
-
-  /* Additional tones */
-  --color-primary-rgb: 38, 38, 38;
+  --color-category-coral: #ffb5a0;
+  --color-category-mint: #a8d8b9;
+  --color-category-yellow: #ffd89e;
+  --color-category-blue: #b8d4e8;
+  --color-category-pink: #ffb5d5;
 }
